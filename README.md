@@ -1,7 +1,7 @@
 # Advanced Encryption Standard
 Out of respect for the designers, this repository is named after the original algorithm proposed by Joan Daemen and Vincent Rijmen. However, it is important to note that the code contained herein conforms to the **Advanced Encryption Standard (AES)** defined in FIPS PUB 197.
 
-Rijndael supports additional block sizes and key sizes that are not specified for AES. Theoretically, this code should support the additional parameters defined for the Rijndael algorithm although this behavior has not been tested and would require some minor tweaking of the code. Please see [Implementation Notes](#Rijndael) for a further explanation. 
+Rijndael supports additional block sizes and key sizes that are not specified for AES. Theoretically, this code should support the additional parameters defined for the Rijndael algorithm although this behavior has not been tested and would require some minor tweaking of the code. Please see [Implementation Notes](#Rijndael-Algorithm) for a further explanation. 
 
 ## How to use
 Available functions and data structures are defined within the **aes.h** header file.\
