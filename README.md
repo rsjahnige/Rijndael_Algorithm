@@ -31,6 +31,8 @@ return out; // Ciphertext stored in out[] array
 The same procedure can be used to decrypt a data block by replacing the Cipher() function call with InvCipher(). Please take a look at the **htest.c** file for a full example.
 
 ## Implementation Notes
+This section will discuss parts of the code that I believe need improvment as well as general comments I have about the implementation.
+
 #### Rijndael 
 
 ## References
