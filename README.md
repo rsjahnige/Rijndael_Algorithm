@@ -5,7 +5,7 @@ Rijndael supports additional block sizes and key sizes that are not specified fo
 
 ## How to use
 Available functions and data structures are defined within the **aes.h** header file.\
-Encrypting a data block:
+The following steps can be used to encrypt a data block:
 ```
 int keySize = 128, 192, 256; // Choose one
 struct AES params;
@@ -34,6 +34,7 @@ The same procedure can be used to decrypt a data block by replacing the Cipher()
 This section will discuss parts of the code that I believe need improvment as well as general comments I have about the implementation.
 
 #### Rijndael Algorithm
+To implement the Rijndael Algotithm, you will first need to identify the supported block and key sizes defined in [][]. Then, update the \_\_init()\_\_ function accordingly. Since AES uses a fixed 128 bit input block size for all key sizes, \'Nb\' has been defined as a marco. This is effective for the AES implementation although it cannot be used for the Rijndael algorithm. To support the varying block sizes of the Rijndael algorithm would required \'Nb\' to be initialized along with the other parameters in the \_\_init()\_\_ function. Furthermore, several auxilary functions use \'Nb\' for iteration so this value would need to be included in the paramater list for those functions since it is no longer globally available.  
 
 #### Eucildean Algorithm
 
