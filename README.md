@@ -1,7 +1,7 @@
 # Rijndael Algorithm
 Out of respect for the designers, this repository is named after the original algorithm proposed by Joan Daemen and Vincent Rijmen. However, it is important to note that the code contained herein conforms to the **Advanced Encryption Standard (AES)** defined in FIPS PUB 197.
 
-Rijndael supports additional block sizes and key sizes that are not specified for AES. Theoretically, this code should support the additional parameters defined in the Rijndael algorithm although this behavior has not been tested and would require some tweaking of the code (i.e., removing the block size macro and updating the \_\_init\_\_ function). Please see [Implementation Notes] for a further explanation. 
+Rijndael supports additional block sizes and key sizes that are not specified for AES. Theoretically, this code should support the additional parameters defined in the Rijndael algorithm although this behavior has not been tested and would require some tweaking of the code (i.e., removing the block size macro and updating the \_\_init\_\_ function). Please see [Implementation Notes](#Implementation_Notes) for a further explanation. 
 
 ## How to use
 Available functions and data structures are defined within the **aes.h** header file.\
@@ -30,7 +30,7 @@ return out; // Ciphertext stored in out[] array
 ```
 The same procedure can be used to decrypt a data block by replacing the Cipher() function call with InvCipher(). Please take a look at the **htest.c** file for a full example.
 
-## Implementation Notes
+## Implementation_Notes
 
 
 ## References
