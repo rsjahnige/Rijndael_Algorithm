@@ -33,10 +33,10 @@ The same procedure can be used to decrypt a data block by replacing the Cipher()
 ## Implementation Notes
 This section will discuss parts of the code that I believe need improvment as well as general comments I have about the implementation.
 
-### Rijndael Algorithm
+#### Rijndael Algorithm
 
-### Eucildean Algorithm
+#### Eucildean Algorithm
 
-### Sanitizing Input
+#### Sanitizing Input
 
 ## References
