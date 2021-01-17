@@ -38,7 +38,7 @@ Rijndael \[2,3\] supports additional block sizes and key sizes that are not spec
   1. Update \_\_init\_\_() function with appropiate values
   2. Remove \'Nb\' macro and add it to the \_\_init\_\_() function
   3. Use pointer instead of fixed size arrays for function paramaters
-  4. Update Rcon[] in KeyExpansion() to prevent overflow when Nb increases
+  4. Update Rcon[] in KeyExpansion() to prevent overflow when Nb increases\
 To my knowledge, all other code in the **aes.c** file can remain the same.
 
 #### Eucildean Algorithm
