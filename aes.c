@@ -330,15 +330,15 @@ static void InvShiftRows(unsigned char state[4][Nb]) {
   
   /* Shift row 1 to the right 1 */
   for (int i=0; i < Nb; i++) row[i] = state[1][i];
-  for (int i=0; i < Nb; i++) state[1][i] = row[(i-1)%Nb];
+  for (int i=0; i < Nb; i++) state[1][i] = row[(i+3)%Nb];
 
   /* Shift row 2 to the right 2 */
   for (int i=0; i < Nb; i++) row[i] = state[2][i];
-  for (int i=0; i < Nb; i++) state[2][i] = row[(i-2)%Nb];
+  for (int i=0; i < Nb; i++) state[2][i] = row[(i+2)%Nb];
 
   /* Shift row 3 to the right 3 */
   for (int i=0; i < Nb; i++) row[i] = state[3][i];
-  for (int i=0; i < Nb; i++) state[3][i] = row[(i-3)%Nb];
+  for (int i=0; i < Nb; i++) state[3][i] = row[(i+1)%Nb];
 }
 
 static void InvSubBytes(unsigned char state[4][Nb]) {
