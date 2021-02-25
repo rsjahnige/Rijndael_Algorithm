@@ -3,8 +3,6 @@ To show my admiration, this repository is named after the original algorithm pro
 
 The code available in this repository was written to satisfy my own curiosity. **I am not a cybersecurity profesional and this code has only been tested with the example vectors provided in Appendix C of \[2\].**
 
-**THIS ALGORITHM IS BROKEN; DO NOT USE. I AM CURRENTLY WORKING ON FIXING THE PROBLEM.**
-
 ## How to use
 Available functions and data structures are defined within the **aes.h** header file.\
 The following steps can be used to encrypt a 128 bit data block:
