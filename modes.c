@@ -5,7 +5,7 @@
   fprintf(stderr, "\t%s\n", msg);                       \
   fprintf(stderr, "Check Documentation For Assistance");
 
-static struct header {
+struct header {
   unsigned int padding;
   unsigned int mode;
   unsigned int keySize;
