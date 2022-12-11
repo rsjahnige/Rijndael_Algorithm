@@ -1,5 +1,5 @@
 # Advanced Encryption Standard
-To show my admiration, this repository is named after the original algorithm proposed by Joan Daemen and Vincent Rijmen \[1\]. However, the code contained herein conforms to the **Advanced Encryption Standard (AES)** defined in FIPS PUB 197 \[2\].
+This repository is named after the original algorithm proposed by Joan Daemen and Vincent Rijmen \[1\]. However, the code contained herein conforms to the **Advanced Encryption Standard (AES)** defined in FIPS PUB 197 \[2\].
 
 The code available in this repository was written to satisfy my own curiosity. **I am not a cybersecurity profesional and this code has only been tested with the example vectors provided in Appendix C of \[2\].**
 
